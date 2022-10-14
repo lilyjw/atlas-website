@@ -33,7 +33,7 @@ jobs:
 
       - name: Configure .env
         shell: bash
-        run: echo -e "NAVIGATOR_URL=https://mitre-atlas.github.io/atlas-navigator\nROUTER_BASE=/atlas-website/" > .env
+        run: echo -e "NAVIGATOR_URL=https://mitre-atlas.github.io/atlas-navigator\nROUTER_BASE=/pages/mitre-atlas/atlas-website/" > .env
 
       - name: Install dependencies
         run: npm install
